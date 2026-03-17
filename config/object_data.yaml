@@ -1,0 +1,11 @@
+path: ./data/object_data
+train: train/images
+val:   val/images
+test:  test/images
+nc: 5
+names:
+  0: car
+  1: truck
+  2: pedestrian
+  3: motorcycle
+  4: bicycle

@@ -1,0 +1,25 @@
+carla:
+  host: localhost
+  port: 2000
+  timeout: 10.0
+  town: Town04
+  weather: ClearNoon
+
+vehicle:
+  blueprint: vehicle.tesla.model3
+  spawn_index: 0
+
+camera:
+  width:  640
+  height: 480
+  fov:    90
+  x: 1.5
+  z: 2.4
+
+lidar:
+  channels:      32
+  range:         50
+  points_per_second: 100000
+  rotation_frequency: 20
+  x: 0.0
+  z: 2.8
