@@ -2,10 +2,16 @@ path: ./data/object_data
 train: train/images
 val:   val/images
 test:  test/images
-nc: 5
+nc: 11
 names:
-  0: car
-  1: truck
-  2: pedestrian
-  3: motorcycle
-  4: bicycle
+  0: vehicle
+  1: bike
+  2: traffic_light_red
+  3: traffic_light_green
+  4: traffic_light_yellow
+  5: traffic_light_off
+  6: speed_sign_30
+  7: speed_sign_60
+  8: speed_sign_90
+  9: traffic_sign
+  10: pedestrian
