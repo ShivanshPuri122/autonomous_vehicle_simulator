@@ -1,7 +1,7 @@
 path: ./data/object_data
-train: train/images
-val:   val/images
-test:  test/images
+train: images/train
+val:   images/val
+test:  images/test
 nc: 11
 names:
   0: vehicle
