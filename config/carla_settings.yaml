@@ -16,6 +16,13 @@ camera:
   x: 1.5
   z: 2.4
 
+depth_camera:
+  width:  640
+  height: 480
+  fov:    90
+  x: 1.5
+  z: 2.4
+
 lidar:
   channels:      32
   range:         50
@@ -23,3 +30,4 @@ lidar:
   rotation_frequency: 20
   x: 0.0
   z: 2.8
+

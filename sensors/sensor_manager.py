@@ -1,5 +1,6 @@
 import yaml
 from .camera_sensor import CameraSensor
+from .depth_sensor import DepthSensor
 from .lidar_sensor import LidarSensor
 
 class SensorManager:
@@ -31,6 +32,10 @@ class SensorManager:
         if 'camera' in self.config:
             self.sensors['camera'] = CameraSensor(self.vehicle, self.config)
         
+        # Initialize Depth Camera
+        if 'depth_camera' in self.config:
+            self.sensors['depth'] = DepthSensor(self.vehicle, self.config)
+
         # Initialize LiDAR
         if 'lidar' in self.config:
             self.sensors['lidar'] = LidarSensor(self.vehicle, self.config)
