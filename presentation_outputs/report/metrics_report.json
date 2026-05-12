@@ -1,0 +1,84 @@
+{
+  "model_info": {
+    "architecture": "YOLOv8m",
+    "dataset": "CARLA Merged (28,814 images)",
+    "classes": 11,
+    "generated_at": "2026-03-19 00:16"
+  },
+  "overall": {
+    "mAP50": 0.965,
+    "mAP50_95": 0.7412,
+    "precision": 0.9619,
+    "recall": 0.9135
+  },
+  "per_class": {
+    "vehicle": 0.9649,
+    "bike": 0.9344,
+    "traffic_light_red": 0.9478,
+    "traffic_light_green": 0.9612,
+    "traffic_light_yellow": 0.9645,
+    "traffic_light_off": 0.9844,
+    "speed_sign_30": 0.9707,
+    "speed_sign_60": 0.9877,
+    "speed_sign_90": 0.969,
+    "traffic_sign": 0.0,
+    "pedestrian": 0.0
+  },
+  "av_readiness": {
+    "vehicle": {
+      "mAP50": 0.9649,
+      "required": 0.95,
+      "status": "PASS"
+    },
+    "bike": {
+      "mAP50": 0.9344,
+      "required": 0.93,
+      "status": "PASS"
+    },
+    "traffic_light_red": {
+      "mAP50": 0.9478,
+      "required": 0.95,
+      "status": "FAIL"
+    },
+    "traffic_light_green": {
+      "mAP50": 0.9612,
+      "required": 0.95,
+      "status": "PASS"
+    },
+    "traffic_light_yellow": {
+      "mAP50": 0.9645,
+      "required": 0.95,
+      "status": "PASS"
+    },
+    "traffic_light_off": {
+      "mAP50": 0.9844,
+      "required": 0.9,
+      "status": "PASS"
+    },
+    "speed_sign_30": {
+      "mAP50": 0.9707,
+      "required": 0.93,
+      "status": "PASS"
+    },
+    "speed_sign_60": {
+      "mAP50": 0.9877,
+      "required": 0.93,
+      "status": "PASS"
+    },
+    "speed_sign_90": {
+      "mAP50": 0.969,
+      "required": 0.93,
+      "status": "PASS"
+    },
+    "traffic_sign": {
+      "mAP50": 0.0,
+      "required": 0.9,
+      "status": "FAIL"
+    },
+    "pedestrian": {
+      "mAP50": 0.0,
+      "required": 0.95,
+      "status": "FAIL"
+    }
+  }
+}
