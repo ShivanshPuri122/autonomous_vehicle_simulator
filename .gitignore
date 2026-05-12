@@ -1,16 +1,17 @@
 # Python
 .venv/
+venv/
 __pycache__/
 *.pyc
 *.pyo
 .env
 
-# Data — too large for git, share via Drive/DVC
+# Data ï¿½ too large for git, share via Drive/DVC
 data/raw/
 data/lane_data/
 data/object_data/
 
-# Model weights — share via Drive
+# Model weights ï¿½ share via Drive
 *.pt
 *.onnx
 *.engine
